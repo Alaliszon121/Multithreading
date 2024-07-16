@@ -277,6 +277,7 @@ thread 1: compare g_data
 thread 0: lock, read and compare g_data, read, increment, write g_data, unlock
 thread 1: lock, read and compare g_data, read, increment, write g_data, unlock
 ```
+![spinlock](https://github.com/user-attachments/assets/3b967890-80e0-470d-ba9a-1eb6a491fe81)
 
 ## 10. Implementacja SpinLock
 
