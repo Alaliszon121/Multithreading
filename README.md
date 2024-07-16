@@ -38,6 +38,8 @@ int main() {
 - `std::thread::hardware_concurrency()` zwraca liczbę dostępnych rdzeni procesora.
 - Tworzenie i uruchamianie wątków za pomocą `std::thread`.
 - Użycie `join()`, aby poczekać na zakończenie wszystkich wątków.
+    
+![race_condition](https://github.com/user-attachments/assets/b99454aa-5828-4333-9740-5dd952e42d33)
 
 ## 2. Problem współbieżności bez synchronizacji
 
@@ -64,8 +66,6 @@ void thread_func()
     thread 1: add 1 to reg
     thread 1: write reg to g_data
     ```
-    
-![race_condition](https://github.com/user-attachments/assets/b99454aa-5828-4333-9740-5dd952e42d33)
 
 2. Wątki działają równolegle bez synchronizacji:
     - Wynik: `g_data == 1`
