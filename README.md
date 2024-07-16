@@ -1,5 +1,9 @@
 # Wielowątkowość w C++
 
+![clock_processor](https://github.com/user-attachments/assets/b6a0f8ec-6aa9-4d28-a274-7b0ccaeadc11)
+![threads](https://github.com/user-attachments/assets/76d5fc7e-5408-4d7c-b739-260b76c0a8b9)
+
+
 ## 1. Prosty przykład użycia wątków
 
 ```cpp
@@ -60,7 +64,8 @@ void thread_func()
     thread 1: add 1 to reg
     thread 1: write reg to g_data
     ```
-
+    
+![race_condition](https://github.com/user-attachments/assets/b99454aa-5828-4333-9740-5dd952e42d33)
 2. Wątki działają równolegle bez synchronizacji:
     - Wynik: `g_data == 1`
     ``` 
