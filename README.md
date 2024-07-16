@@ -66,6 +66,7 @@ void thread_func()
     ```
     
 ![race_condition](https://github.com/user-attachments/assets/b99454aa-5828-4333-9740-5dd952e42d33)
+
 2. Wątki działają równolegle bez synchronizacji:
     - Wynik: `g_data == 1`
     ``` 
