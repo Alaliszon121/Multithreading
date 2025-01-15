@@ -325,4 +325,4 @@ thread 0: compare g_data
 thread 1: compare g_data
 thread 0: lock, read and compare g_data, read, increment, write g_data, unlock
 thread 1: lock, read and compare g_data, read, increment, write g_data, unlock
-```# Multithreading
+
